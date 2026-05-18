@@ -9,6 +9,7 @@ PKG_TYPE    := $(shell jq -r '.type' composer.json)
 
 override_dh_install:
 	dh_install
+	mkdir -p debian/php-riesenia-pohoda/usr/share/php/Riesenia
 	install -m 644 debian/autoload.php debian/php-riesenia-pohoda/usr/share/php/Riesenia/autoload.php
 	sed -i "s|'unknown'|'$(PKG_SOURCE)'|" \
 	    debian/php-riesenia-pohoda/usr/share/php/Riesenia/autoload.php
