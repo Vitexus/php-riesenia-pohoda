@@ -1,0 +1,5 @@
+php-riesenia-pohoda (0.1.0) UNRELEASED; urgency=medium
+
+  * Initial Debian packaging
+
+ -- Vítězslav Dvořák <info@vitexsoftware.cz>  Sun, 18 May 2025 12:00:00 +0200

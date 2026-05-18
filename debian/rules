@@ -1,0 +1,18 @@
+#!/usr/bin/make -f
+
+PKG_VERSION := $(shell dpkg-parsechangelog -S Version | sed 's/~.*//')
+PKG_SOURCE  := $(shell jq -r '.name' composer.json)
+PKG_TYPE    := $(shell jq -r '.type' composer.json)
+
+%:
+	dh $@
+
+override_dh_install:
+	dh_install
+	install -m 644 debian/autoload.php debian/php-riesenia-pohoda/usr/share/php/Riesenia/autoload.php
+	sed -i "s|'unknown'|'$(PKG_SOURCE)'|" \
+	    debian/php-riesenia-pohoda/usr/share/php/Riesenia/autoload.php
+	sed -i "s|'0.0.0'|'$(PKG_VERSION)'|" \
+	    debian/php-riesenia-pohoda/usr/share/php/Riesenia/autoload.php
+	sed -i "s|'library'|'$(PKG_TYPE)'|g" \
+	    debian/php-riesenia-pohoda/usr/share/php/Riesenia/autoload.php

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="generic">
+  <id>io.github.riesenia.pohoda</id>
+  <metadata_license>MIT</metadata_license>
+  <project_license>MIT</project_license>
+  <name>php-riesenia-pohoda</name>
+  <summary>Pohoda XML communication library for PHP</summary>
+  <description>
+    <p>PHP library for generating and parsing Pohoda XML documents used for
+    communication with the Stormware Pohoda accounting software.</p>
+    <p>Provides classes for creating invoices, orders, stock items, addressbook
+    entries, bank records, contracts, and other Pohoda agenda types.</p>
+  </description>
+  <icon type="stock">package-x-generic</icon>
+  <url type="homepage">https://github.com/riesenia/pohoda</url>
+  <url type="bugtracker">https://github.com/riesenia/pohoda/issues</url>
+  <url type="vcs-browser">https://github.com/riesenia/pohoda</url>
+  <provides>
+    <library>Riesenia/Pohoda.php</library>
+  </provides>
+</component>

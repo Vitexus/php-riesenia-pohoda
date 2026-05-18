@@ -1,5 +1,6 @@
 {
     "name": "riesenia/pohoda",
+    "type": "library",
     "description": "Pohoda XML communication",
     "license": "MIT",
     "authors": [
