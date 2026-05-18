@@ -1,3 +1,9 @@
+php-riesenia-pohoda (1.5.1) trixie; urgency=medium
+
+  * fix: move src/* install rule to package-specific install file so PHP sources are actually shipped
+
+ -- Vítězslav Dvořák <info@vitexsoftware.cz>  Mon, 18 May 2026 08:00:00 +0200
+
 php-riesenia-pohoda (1.5.0) trixie; urgency=medium
 
   * Initial Debian packaging of riesenia/pohoda v1.5.0
