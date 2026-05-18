@@ -1,5 +1,5 @@
-php-riesenia-pohoda (0.1.0) UNRELEASED; urgency=medium
+php-riesenia-pohoda (1.5.0) trixie; urgency=medium
 
-  * Initial Debian packaging
+  * Initial Debian packaging of riesenia/pohoda v1.5.0
 
- -- Vítězslav Dvořák <info@vitexsoftware.cz>  Sun, 18 May 2025 12:00:00 +0200
+ -- Vítězslav Dvořák <info@vitexsoftware.cz>  Mon, 18 May 2026 07:25:56 +0200
