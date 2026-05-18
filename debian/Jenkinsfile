@@ -5,7 +5,7 @@
 String[] distributions = [
 			'debian:bookworm', 
 			'debian:trixie', 
-			'debian:forky', 
+// Depends: php-symfony-options-resolver but it is not installable			'debian:forky', 
 			'ubuntu:jammy', 
 			'ubuntu:noble',
 			'ubuntu:resolute',
