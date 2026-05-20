@@ -5,7 +5,10 @@
 String[] distributions = [
 			'debian:bookworm', 
 			'debian:trixie', 
-// Depends: php-symfony-options-resolver but it is not installable			'debian:forky', 
+// debian:forky disabled: Forky is still unstable/research-only.
+// The full Debian package ecosystem is not yet available for Forky.
+// Re-enable once the stack builds cleanly for Forky.
+// Depends: php-symfony-options-resolver but it is not installable, 
 			'ubuntu:jammy', 
 			'ubuntu:noble',
 			'ubuntu:resolute',
