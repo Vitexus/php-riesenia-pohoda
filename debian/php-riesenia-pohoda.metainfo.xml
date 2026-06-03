@@ -11,7 +11,7 @@
     <p>Provides classes for creating invoices, orders, stock items, addressbook
     entries, bank records, contracts, and other Pohoda agenda types.</p>
   </description>
-  <icon type="stock">package-x-generic</icon>
+  <icon type="stock">php-riesenia-pohoda</icon>
   <url type="homepage">https://github.com/riesenia/pohoda</url>
   <url type="bugtracker">https://github.com/riesenia/pohoda/issues</url>
   <url type="vcs-browser">https://github.com/riesenia/pohoda</url>

@@ -1,2 +1,3 @@
 src/* usr/share/php/Riesenia/
 debian/php-riesenia-pohoda.metainfo.xml usr/share/metainfo/
+debian/php-riesenia-pohoda.svg usr/share/icons/hicolor/scalable/apps/
