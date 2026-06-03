@@ -1,3 +1,9 @@
+php-riesenia-pohoda (1.5.2) trixie; urgency=medium
+
+  * feat: add extId support to Bank/Header (refs riesenia/pohoda#63)
+
+ -- Vítězslav Dvořák <info@vitexsoftware.cz>  Tue, 03 Jun 2026 15:00:00 +0200
+
 php-riesenia-pohoda (1.5.1) trixie; urgency=medium
 
   * fix: move src/* install rule to package-specific install file so PHP sources are actually shipped
